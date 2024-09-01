@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .team-member img {
+            transition: transform 0.3s ease-in-out;
+        }
+        .team-member img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white py-12 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">About Us</h1>
+            <p class="text-lg md:text-xl">We are a passionate team dedicated to bringing you the best experience.</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-12 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Text Content -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Our Mission</h2>
+                    <p class="text-lg mb-4">Our mission is to deliver exceptional value to our customers through innovative solutions and unparalleled service. We strive to be leaders in our industry, setting standards for quality and excellence.</p>
+                    <p class="text-lg mb-4">We believe in building strong relationships with our clients and partners, ensuring that we meet and exceed their expectations. Our team is dedicated to continuous improvement and staying ahead of industry trends.</p>
+                </div>
+                <!-- Image Content -->
+                <div class="flex items-center justify-center">
+                    <img src="https://via.placeholder.com/600x400/4A90E2/ffffff?text=Our+Team" alt="Our Team" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="bg-gray-200 py-12 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Meet Our Team</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="team-member text-center">
+                    <img src="https://via.placeholder.com/300x300/4A90E2/ffffff?text=Jane+Doe" alt="Jane Doe" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Jane Doe</h3>
+                    <p class="text-gray-700">CEO & Founder</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-member text-center">
+                    <img src="https://via.placeholder.com/300x300/50E3C2/ffffff?text=John+Smith" alt="John Smith" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">John Smith</h3>
+                    <p class="text-gray-700">CTO</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="team-member text-center">
+                    <img src="https://via.placeholder.com/300x300/9013FE/ffffff?text=Emily+Johnson" alt="Emily Johnson" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Emily Johnson</h3>
+                    <p class="text-gray-700">Lead Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Our Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
